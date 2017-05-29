@@ -60,3 +60,9 @@ DataX目前已经有了比较全面的插件体系，主流的RDBMS数据库、N
 
 # 其他
 
+本工程只为简述一个模块化工程构架实现过程，因此删除除stream和mysql之外所有的reader和writer，以保证代码阅读体验
+
+# 代码原始版本
+
+本工程源于之前托管在taocode上的datax工程，当时只支持有限的hbase/hdfs/mysql/oracle/stream等几个主流数据存储格式，其代码路径：
+http://code.taobao.org/svn/datax
